@@ -108,6 +108,8 @@ func main() {
 		return
 	}
 
+	fmt.Printf("testoutput")
+
 	if err := chaincode.Start(); err != nil {
 		fmt.Printf("Error starting fabcar chaincode: %s", err.Error())
 	}
